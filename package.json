@@ -1,0 +1,19 @@
+{
+  "name": "dsms-phase1",
+  "version": "1.0.0",
+  "description": "DSMS Phase1 - static frontend with simple Express server for development",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
